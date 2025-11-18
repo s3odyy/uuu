@@ -1,3 +1,5 @@
+import 'package:eccomerce/Providers/Product_Provider.dart';
+import 'package:eccomerce/Screens/HomePageProduct.dart';
 import 'package:eccomerce/Screens/LoginPage.dart';
 import 'package:eccomerce/Screens/signUpPage.dart';
 import 'package:flutter/material.dart';
@@ -16,10 +18,11 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => AuthProvider()),
+        ChangeNotifierProvider(create: (context)=>ProductProvider())
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Signuppage()
+        home: Homepageproduct()
         ),
       
     );

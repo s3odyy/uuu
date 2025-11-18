@@ -82,7 +82,7 @@ class Signuppage extends StatelessWidget {
                     child: Text("Sign Up"),
                     onPressed: () {
                     {
-                      pro.signUp(email: _emailController.text, pasword: _passwordController.text, contact: _contactController.text, name: _nameController.text);
+                    pro.signUp(email: _emailController.text, pasword: _passwordController.text, contact: _contactController.text, name: _nameController.text);
                     }
                    },
                   ),
@@ -105,3 +105,5 @@ class Signuppage extends StatelessWidget {
     );
   }
 }
+
+//id , name , price , descrption , image 

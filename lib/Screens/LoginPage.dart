@@ -1,6 +1,5 @@
 import 'package:eccomerce/Providers/Auth_Provider.dart';
 import 'package:eccomerce/Widgets/CustomBox.dart';
-import 'package:eccomerce/serviecs/Auth_Servies.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
